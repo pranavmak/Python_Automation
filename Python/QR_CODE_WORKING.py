@@ -1,7 +1,8 @@
 #pip install pyqrcode
-
+#(importing dependencies/modules/packages , we can import 'pyqrcode *' as well)
 import pyqrcode 
-from pyqrcode import QRCode 
+#(from parent u are opening child code(method))
+from pyqrcode import QRCode    
   
 # String which represent the QR code 
 s = "https://www.youtube.com/channel/UCBz4yaxNxfiz1XYh-07UfWQ"
