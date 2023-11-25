@@ -1,8 +1,12 @@
+#case1 : we have url of jason data and we have to extract particular data.
+
 import json
 import requests
+# if response is slow , timeout will show.
 from socket import timeout
 import logging
 
+# we are defining a method and passing url as a variable.
 def hit_endpoint(url):
     list=[]
     if(url!="null"):
