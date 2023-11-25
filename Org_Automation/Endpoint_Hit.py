@@ -17,7 +17,7 @@ def hit_endpoint(url):
         for link in dump["entries"]:
             print(link['Link'])
             try:
-                data2 = requests.get(link['Link'],timeout=10)
+                data2 = requests.get(link['Link'],timeout=10)  # If website is not opening in 10sec,
                 if (data2.status_code==200):
                     list.append(link['Link'])
                     print(list)
